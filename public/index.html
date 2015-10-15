@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>O-videoChat</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+
+
+
+    <div id="display">
+      <!-- Local Video -->
+      <div id="displayLocal" class ='displays'>
+        <video id="localVideo"></video>
+        <button id="muteButton">Mute</button>
+        <button id="videoButton">Video</button>
+        <button id="screenShareButton">Share Screen</button>
+        <button id="recordButton">Record</button>
+      </div>
+
+      <!-- Remote Videos -->
+      <div id="displayRemote" class ='displays'>
+        <div id="remoteVideos"></div>
+          <button id="muteButton2">Mute</button>
+          <button id="videoButton2">Video</button>
+          <button id="screenShareButton2">Share Screen</button>
+          <button id="recordButton2">Record</button>
+      </div>
+    </div>
+
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://simplewebrtc.com/latest.js"></script>
+    <script src='../javascripts/main.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
