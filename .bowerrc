@@ -3,6 +3,7 @@
     "registry": {
     "search": [
       "https://origami.pearsoned.com/registry",
+      "https://github.com/Financial-Times",
       "https://bower.herokuapp.com"
     ]
   }
