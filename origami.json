@@ -13,6 +13,6 @@
   },
   "demos": [],
   "ci": {
-    "travis": "https://api.travis-ci.org/repos/Financial-Times/o-tweet/builds.json"
+    "travis": "https://api.travis-ci.org/repos/Financial-Times/o-videochat/builds.json"
   }
 }
