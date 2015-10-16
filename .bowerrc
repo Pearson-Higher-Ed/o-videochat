@@ -1,0 +1,9 @@
+{
+    "directory": "bower_components",
+    "registry": {
+    "search": [
+      "https://origami.pearsoned.com/registry",
+      "https://bower.herokuapp.com"
+    ]
+  }
+}
