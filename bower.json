@@ -1,0 +1,20 @@
+{
+  "name": "o-videochat",
+  "main": [
+    "main.js"
+  ],
+  "ignore": [
+    "examples",
+    "test",
+    "scripts",
+    ".gitignore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pearson-Higher-Ed/o-videochat.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "o-assets": ">=0.4.1 <3"
+  }
+}
