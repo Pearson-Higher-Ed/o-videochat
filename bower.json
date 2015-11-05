@@ -1,7 +1,7 @@
 {
   "name": "o-videochat",
   "main": [
-    "main.js"
+    "/public/javascripts/main.js"
   ],
   "ignore": [
     "examples",
